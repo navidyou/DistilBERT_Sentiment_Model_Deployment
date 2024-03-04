@@ -36,7 +36,7 @@ To run the application inside a Docker container, execute:
 
 ```bash
 docker run -d -p 80:80 sentiment-analysis-app
-
+```
 ### Testing the Application
 
 With the application running, you can perform sentiment analysis by sending a POST request to the `/generate` endpoint. Use the following Python script as an example to test the service:
@@ -48,3 +48,4 @@ url = 'http://localhost/generate'
 data = {"text": "I love learning new things every day!"}
 response = requests.post(url, json=data)
 print(response.json())
+```
