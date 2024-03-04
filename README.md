@@ -1,4 +1,3 @@
-# DistilBERT_Sentiment_Model_Deployment
 # Sentiment Analysis Flask Application
 
 This Flask application provides sentiment analysis as a service, utilizing the `distilbert-base-uncased` model from Hugging Face's Transformers library. It is designed to be easily deployable using Docker and served with Gunicorn for handling web requests efficiently.
