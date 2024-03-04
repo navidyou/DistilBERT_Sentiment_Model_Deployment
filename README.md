@@ -50,10 +50,10 @@ response = requests.post(url, json=data)
 print(response.json())
 ```
 
-### Why the distilbert-base-uncased model:
+# Why the distilbert-base-uncased model:
 
-# 1. Efficiency and Performance
+## 1. Efficiency and Performance
 DistilBERT is a smaller, faster, cheaper, and lighter version of BERT. It retains 97% of BERT's language understanding capabilities while being 40% smaller and 60% faster. This efficiency makes it particularly suitable for real-time applications and scenarios where computational resources are limited, such as deploying models in a web application.
 
-# 2. Versatility in Natural Language Processing (NLP)
+## 2. Versatility in Natural Language Processing (NLP)
 The model has been pre-trained on a large corpus of text, allowing it to understand the nuances of the English language (assuming the use of the uncased variant). This pre-training makes it adaptable to a wide range of NLP tasks, including sentiment analysis, with minimal additional fine-tuning required.
